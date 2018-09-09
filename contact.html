@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>About Me</title>
+    <title>Contact Bill Wunsch</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css" />
@@ -43,34 +43,34 @@
                 <hr>
             </div>
         </div>
-
-        <div class="form-container">
-            <form>
+        <form>
+            <div class="form-group">
                 <label for="fullname">Name</label>
-                <input type="text" id="fullname" name="fullname" placeholder="John Smith">
-
-                <label for="email">Email</label>
-                <input type="text" id="email" name="email" placeholder="example@gmail.com">
-
-                <label for="message">Message</label>
-                <textarea type="msg" id="message" name="user_message"></textarea>
-
-                <input type="submit" value="Submit">
-            </form>
-        </div>
-
-
-
-        <footer class="footer">
-            <div id="blueFooter">
-                <div id="greyFooter">
-                    <p>Copyright &copy;</p>
-                </div>
+                <input type="text" class="form-control" id="fullname" placeholder="John Smith">
             </div>
-        </footer>
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="example@gmail.com">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
 
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-            crossorigin="anonymous"></script>
+
+    <footer class="footer">
+        <div id="blueFooter">
+            <div id="greyFooter">
+                <p>Copyright &copy;</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
