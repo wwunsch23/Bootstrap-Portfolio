@@ -93,14 +93,6 @@ hr {
     margin-bottom: 10px;
 }
 
-
-.portfolioImage {
-    margin-bottom: 30px;
-    width: 300px;
-    height: 200px;
-    position: relative;
-}
-
 img.hover-shadow {
     transition: 0.3s;
 }
@@ -113,32 +105,31 @@ img.hover-shadow {
     width: 18%;
 }
 
-div.image {
-    margin-top: 20px;
-    position: relative;
-    float: left;
-}
-
 div.form-container {
     margin-top: 20px;
 }
 
-h3 {
-    position: absolute;
-    bottom: 30px;
-    width: 300px;
+.image-container {
+    max-width: 300px;
+    max-height: 200px;
+}
+
+h4 {
+    position: relative;
+    top: -70px;
+    width: 100%;
     background-color: #4aaaa5;
-    padding: 15px;
+    padding: 5%;
     text-align: center;
     color: #fff;
     font-family: 'Georgia', Times, "Times New Roman", serif;
 }
 
-h3:hover {
+h4:hover {
     background-color: #4AB4DD;
 }
 
-.image:hover h3 {
+.image-container:hover h4 {
     background-color: #4AB4DD;
 }
 
